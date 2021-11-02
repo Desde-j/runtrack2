@@ -5,12 +5,6 @@
         <meta charset="utf-8"/>
         <title>Tableau Variable primitifs</title>
         
-    <style>
-table, th, td {
-  border: 1px solid black;
-}
-    </style>
-</heade>
 
 <tbody>
     <style>
@@ -18,22 +12,24 @@ table, th, td {
   border: 1px solid black;
 }
     </style>
+
 <header>
 
 <h1>Tableau variable primitifs</h1>
 
 <table>
+
   <colgroup>
     <col span="3"style="background-color:lightgrey">
-  
-
   </colgroup>
+
   <tr>
     <th>Type</th>
     <th>Nom</th>
     <th>Valeur</th>
   </tr>
 </header>
+
   <tr>
     <td>Boolean</td>
     <td>Valeur de vérité</td>
