@@ -1,17 +1,13 @@
 <?php
- 
- $str="Certaines choses changent, et d'autres ne changeront jamais.";
- $str2="";
 
- for ($index= 0; isset($str[$index]) == true; $index++){
-     if($index== 59){
-        $str2 = $str2 . $str[0];
-        
-    }else{
-         $str2 = $str2 . $str[$index + 1];
-     }
- }
+$str="Certaines choses changent, et d'autres ne changeront jamais.";
 
- echo $str2;
+    
+        $var1 = $str[-1];
+        $str[-1] = $str[0];
+        $str[0] = $var1;
 
+
+
+echo $str;
 ?>
